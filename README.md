@@ -6,25 +6,25 @@ An AI-powered tool that helps bug bounty hunters and security researchers genera
 
 ## 🚀 Live Demo
 
-👉 [Try it on Streamlit (if deployed)](https://yourusername-ai-bug-report-generator.streamlit.app)
+👉 [Click here to try the app](https://ai-bug-report-generator-8hmgtkstrspserr6cgcqvw.streamlit.app/)
 
 ---
 
 ## ✨ Features
 
-- Select vulnerability type (IDOR, OAuth misconfig, 2FA bypass, etc.)
-- Enter details like scope, steps to reproduce, impact, and optional fix
-- Generates well-structured bug bounty report using GPT
-- Markdown output for easy copy-paste into HackerOne or Bugcrowd
-- Built with **Streamlit** and **OpenAI API**
+- Choose vulnerability type (IDOR, 2FA Bypass, OAuth, etc.)
+- Enter asset scope, steps to reproduce, impact, and remediation
+- Instantly generate structured bug bounty reports (markdown format)
+- Built with GPT and fine-tuned prompts to output professional reports
+- Clean and minimal Streamlit UI for quick use
 
 ---
 
 ## 🧠 How It Works
 
-1. You provide details about a vulnerability.
-2. The app sends that info to the OpenAI GPT API.
-3. GPT returns a complete report formatted for bug bounty platforms.
+1. You input details of a bug
+2. The app sends the data to OpenAI API (GPT-3.5-turbo or GPT-4)
+3. A clean, ready-to-submit bug bounty report is generated
 
 ---
 
@@ -32,12 +32,12 @@ An AI-powered tool that helps bug bounty hunters and security researchers genera
 
 - **Python**
 - **Streamlit**
-- **OpenAI API (GPT-3.5-turbo / GPT-4)**
-- **dotenv** (for managing API keys securely)
+- **OpenAI API**
+- **dotenv**
 
 ---
 
-## 📦 Installation (Run Locally)
+## 📦 Run Locally
 
 ```bash
 git clone https://github.com/alihassankhan76/ai-bug-report-generator.git
